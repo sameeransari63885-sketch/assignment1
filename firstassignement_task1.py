@@ -1,0 +1,19 @@
+"""Write a Python program that does the following:
+1.  Takes two numbers as input from the user.
+2.  Performs the basic mathematical operations on these two numbers:
+o	Addition
+o	Subtraction
+o	Multiplication
+o	Division
+3.  Displays the results of each operation on the screen.
+
+"""
+
+
+a = float(input("ENTER YOUR FIRST NUMBER : "))
+b = float(input("ENTER YOUR SECOND NUMBER : "))
+
+print( "ADDITION : ", a+b)
+print("SUBTRACTION : ",a-b)
+print("MULTIPLICATION : ",a*b)
+print("DIVISION : ",a/b)
